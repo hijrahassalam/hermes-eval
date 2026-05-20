@@ -1,0 +1,43 @@
+{
+  "name": "hermes-eval",
+  "version": "1.0.0",
+  "description": "AI agent testing and evaluation framework — evaluate, compare, and regression test your LLM agents",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "hermes-eval": "cli/index.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./evaluate": "./src/evaluate.js",
+    "./testcase": "./src/testcase.js",
+    "./runner": "./src/runner.js",
+    "./compare": "./src/compare.js",
+    "./report": "./src/report.js",
+    "./criteria": "./src/criteria.js",
+    "./provider": "./src/provider.js"
+  },
+  "scripts": {
+    "test": "node --test tests/",
+    "lint": "node --check src/**/*.js cli/**/*.js",
+    "eval:sample": "node cli/index.js run --dir tests/",
+    "eval:compare": "node cli/index.js compare --tests tests/"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "evaluation",
+    "testing",
+    "prompt-engineering",
+    "regression",
+    "benchmark",
+    "agent"
+  ],
+  "author": "Hijrah Assalam",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

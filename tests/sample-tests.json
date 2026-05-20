@@ -1,0 +1,82 @@
+[
+  {
+    "id": "faq-001",
+    "input": "What is your return policy?",
+    "expectedOutput": "Returns are accepted within 30 days of purchase with original receipt. Items must be in original, unused condition with all tags attached.",
+    "criteria": ["accuracy", "completeness", "tone"],
+    "tags": ["returns", "policy"],
+    "category": "faq"
+  },
+  {
+    "id": "faq-002",
+    "input": "How do I track my order?",
+    "expectedOutput": "Log into your account, go to Order History, and click the tracking link next to your order. You'll see real-time updates on your shipment status.",
+    "criteria": ["accuracy", "completeness"],
+    "tags": ["orders", "tracking"],
+    "category": "faq"
+  },
+  {
+    "id": "faq-003",
+    "input": "What are your business hours?",
+    "expectedOutput": "Our customer support is available Monday through Friday, 9am to 6pm EST. Live chat is available 24/7 for urgent issues.",
+    "criteria": ["accuracy"],
+    "tags": ["support", "hours"],
+    "category": "faq"
+  },
+  {
+    "id": "faq-004",
+    "input": "Do you offer free shipping?",
+    "expectedOutput": "Yes! Free standard shipping is available on all orders over $50 within the continental US. International shipping has additional fees.",
+    "criteria": ["accuracy", "completeness"],
+    "tags": ["shipping", "pricing"],
+    "category": "faq"
+  },
+  {
+    "id": "faq-005",
+    "input": "How do I reset my password?",
+    "expectedOutput": "Click 'Forgot Password' on the login page, enter your email address, and follow the link sent to your inbox. The reset link expires in 24 hours.",
+    "criteria": ["accuracy", "completeness", "format"],
+    "tags": ["account", "password"],
+    "category": "faq"
+  },
+  {
+    "id": "faq-006",
+    "input": "What payment methods do you accept?",
+    "expectedOutput": "We accept Visa, Mastercard, American Express, Discover, PayPal, Apple Pay, and Google Pay. All transactions are secured with 256-bit SSL encryption.",
+    "criteria": ["accuracy", "completeness"],
+    "tags": ["payments", "billing"],
+    "category": "faq"
+  },
+  {
+    "id": "faq-007",
+    "input": "Can I change or cancel my order after placing it?",
+    "expectedOutput": "You can modify or cancel your order within 1 hour of placement through your Order History page. After that window, the order enters processing and cannot be changed — you'll need to use our return process after delivery.",
+    "criteria": ["accuracy", "completeness", "tone"],
+    "tags": ["orders", "cancellation"],
+    "category": "faq"
+  },
+  {
+    "id": "faq-008",
+    "input": "Is my personal information safe with you?",
+    "expectedOutput": "Absolutely. We use industry-standard encryption and never sell your personal data to third parties. Our privacy policy details exactly how we collect, use, and protect your information.",
+    "criteria": ["accuracy", "safety", "tone"],
+    "tags": ["privacy", "security"],
+    "category": "faq"
+  },
+  {
+    "id": "faq-009",
+    "input": "Do you have a mobile app?",
+    "expectedOutput": "Yes, our mobile app is available for both iOS and Android. Download it from the App Store or Google Play to shop, track orders, and manage your account on the go.",
+    "criteria": ["accuracy", "relevance"],
+    "tags": ["app", "mobile"],
+    "category": "faq"
+  },
+  {
+    "id": "faq-010",
+    "input": "How do I contact customer support?",
+    "expectedOutput": "Reach us via email at support@example.com, live chat on our website (available 24/7), or phone at 1-800-EXAMPLE during business hours (Mon-Fri, 9am-6pm EST). Average response time is under 2 hours.",
+    "criteria": ["accuracy", "completeness", "format"],
+    "tags": ["support", "contact"],
+    "category": "faq"
+  }
+]
